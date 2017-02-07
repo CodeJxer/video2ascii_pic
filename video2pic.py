@@ -13,7 +13,7 @@ while(cap.isOpened()):
 	ret, frame = cap.read()
 
 	cv2.imshow('capture', frame)
-	cv2.imwrite('image//image' + str(c / 5) + '.jpg', frame)
+	cv2.imwrite('image//image' + str(c) + '.jpg', frame)
 	
 	c += 1
 
